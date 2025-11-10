@@ -1,0 +1,5 @@
+id,produto,quantidade,preco_unitario,data_venda
+1,Mouse,3,50.0,2025-11-01
+2,Teclado,1,120.0,2025-11-02
+3,Monitor,2,950.0,2025-11-03
+4,Cadeira Gamer,1,1500.0,2025-11-03

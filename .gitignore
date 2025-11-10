@@ -1,0 +1,90 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Flask / Django local files
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask instance folder
+instance/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Vagrant
+.vagrant/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Database / data files
+*.sqlite3
+*.db
+*.sqlite
+# If you prefer to ignore CSV data files in the projeto folders, uncomment:
+# /projeto*/data/*.csv
+
+# Logs
+*.log
+
+# Docker override (local)
+docker-compose.override.yml
+
+# Node
+node_modules/
+
+# Coverage / profiling
+*.prof
+
+# Compiled Python
+*.pyc
+*.pyo
+*.pyd
+
+# Misc
+Thumbs.db
