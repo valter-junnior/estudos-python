@@ -30,3 +30,16 @@ class Task(Base):
         task = Task(title=title, description=description, status=status, created_at=date.today(), finished_at=finished_at)
         session.add(task)
         session.commit()
+
+    def update(id, **kwargs)
+        task = session.query(Task).get(id)
+        if task:
+            for key, value in kwargs.items():
+                setattr(task, key, value)
+            session.commit()
+
+    def delete(id):
+        task = session.query(Task).get(id)
+        if task:
+            session.delete(task)
+            session.commit()
