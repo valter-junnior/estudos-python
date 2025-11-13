@@ -16,4 +16,10 @@ pip install -r requirements.txt
 - pandas (sum, avg, count)
 - numpy (sum, avg, count)
 
+
+# não esquecer
+
+```python
+df = pd.DataFrame(t.__dict__ for t in tasks)
+```
  
