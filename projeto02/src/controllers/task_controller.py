@@ -14,7 +14,3 @@ class TaskController:
         Task.create(title, description, status, finished_at)
 
         return True
-
-
-
-

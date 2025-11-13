@@ -44,8 +44,7 @@ class TaskView():
 
             st.dataframe(df)
 
-    def charts(self):
-        
+    # def charts(self)
 
     def form(self):
         statuses = {

@@ -1,0 +1,5 @@
+id_produto,nome_produto,categoria,preco_custo
+P01,Camiseta,Vestuário,12.0
+P02,Notebook,Eletrônicos,70.0
+P03,Caneca,Utensílios,20.0
+P04,Mouse,Acessórios,25.0

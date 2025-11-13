@@ -31,7 +31,7 @@ class Task(Base):
         session.add(task)
         session.commit()
 
-    def update(id, **kwargs)
+    def update(id, **kwargs):
         task = session.query(Task).get(id)
         if task:
             for key, value in kwargs.items():
