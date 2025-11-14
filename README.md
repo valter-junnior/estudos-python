@@ -2,6 +2,11 @@
 
 Este README contém a sintaxe e comandos mais utilizados nos projetos, para facilitar a consulta rápida.
 
+# não esquecer
+
+```python
+df = pd.DataFrame(t.__dict__ for t in tasks)
+```
 ## 📊 Pandas
 
 ### Leitura e Manipulação de Dados
